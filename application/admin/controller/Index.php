@@ -1,0 +1,20 @@
+<?php
+
+namespace app\admin\controller;
+
+use think\Db;
+
+class Index extends Base
+{
+    public function index()
+    {
+        return $this->fetch();
+    }
+
+    public function index_v1()
+    {
+
+
+        return $this->fetch();
+    }
+}
